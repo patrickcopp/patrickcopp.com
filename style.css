@@ -17,6 +17,13 @@ button {
   outline:none;
 }
 
+.center-pic{
+  border-radius: 50%;
+  height:200px;
+  width:200px;
+  padding-bottom: 15px;
+}
+
 .center {
     margin: 0;
     position: relative;
@@ -32,7 +39,7 @@ button {
 
 .landing-container {
     margin:0px;
-    height: 80vh;
+    height: 60vh;
     width: 100vw;
     font-family: "Arial";
     letter-spacing: 5px;
@@ -54,7 +61,7 @@ button {
 }
 
 #images{
-  padding-top: 50px;
+  padding-top: 200px;
   text-align:center;
 }
 
