@@ -21,10 +21,14 @@ button {
   border-radius: 50%;
   height:200px;
   width:200px;
-  padding-bottom: 15px;
+}
+
+.name{
+  padding-top: 50px;
 }
 
 .center {
+    padding-top: 40px;
     margin: 0;
     position: relative;
     top: 50%;
@@ -39,7 +43,7 @@ button {
 
 .landing-container {
     margin:0px;
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
     font-family: "Arial";
     letter-spacing: 5px;
