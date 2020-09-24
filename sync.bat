@@ -1,1 +1,1 @@
-aws s3 sync "C:\Users\Patrick Copp\Documents\GitHub\patrickcopp.com" "s3://patrickcopp.com/"
+aws s3 sync "C:\Users\Patrick Copp\Documents\GitHub\patrickcopp.com" "s3://patrickcopp.com/" --exclude ".git/*" --exclude "sync.bat"
