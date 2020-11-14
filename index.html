@@ -7,18 +7,8 @@
     </head>
 
     <body class="body">
+        <div id="vantaNet"></div>
         <div class="landing-container">
-            
-            <video autoplay muted loop id="myVideo">
-                <source src="assets/vid.mp4" type="video/mp4">
-            </video>
-
-            <!-- <button type="button" style="padding:20px;outline:none">
-                <div class="burger"></div>
-                <div class="burger"></div>
-                <div class="burger"></div>
-            </button> -->
-
             <div class="center">
                 <img src="assets/title_pic.jpg" alt="Me" class="center-pic">
                 <h1 class="name">PATRICK COPP</h1>
@@ -42,6 +32,23 @@
 
     </body>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        VANTA.NET({
+          el: "#vantaNet",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x53689d,
+          backgroundColor: 0x111111,
+          points: 18.00,
+          spacing: 17.00
+        })
+    </script>
     <script src="index.js"></script>
 </html>
