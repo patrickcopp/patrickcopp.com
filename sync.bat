@@ -1,1 +1,1 @@
-aws s3 sync "C:\Users\Patrick Copp\Documents\GitHub\patrickcopp.com" "s3://patrickcopp.com/" --exclude ".git/*" --exclude "sync.bat"
+aws s3 sync "C:\Users\Patrick Copp\Documents\GitHub\patrickcopp.com" "s3://patrickcopp.com/" --exclude ".git/*" --exclude "sync.bat" && aws cloudfront create-invalidation --distribution-id E1TXQOX4B8Y5V9 --paths "/*"
