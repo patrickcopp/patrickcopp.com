@@ -157,8 +157,8 @@ td{
   padding: 0;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   font-family: consolas;
 }
 
@@ -173,6 +173,7 @@ td{
 .container .card{
   position: relative;
   cursor: pointer;
+  margin: auto;
 }
 
 .container .card .face{
