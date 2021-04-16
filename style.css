@@ -13,6 +13,7 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
   vertical-align: baseline;
   background: transparent;
 }
+
 button {
   background-color: Transparent;
   background-repeat:no-repeat;
@@ -31,9 +32,10 @@ button {
 }
 
 .center-pic{
+  margin-top: 10px;
   border-radius: 50%;
-  height:200px;
-  width:200px;
+  height:45%;
+  width:height;
 }
 
 .name{
@@ -41,14 +43,10 @@ button {
 }
 
 .center {
-    padding-top: 40px;
+    top: 5vh;
     margin: 0;
     position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 500%;
+    font-size: 8vh;
     width: 100%;
     text-align: center;
     color: white;
@@ -70,8 +68,8 @@ button {
 }
 
 #images{
-  padding-top: 60px;
-  text-align:center;
+  margin-top: 3rem;
+  text-align:center; 
 }
 
 #vantaNet{
@@ -88,10 +86,6 @@ button {
 
 .vanta-canvas {
   position: fixed !important;
-}
-
-li{
-  /* margin-left: 20px;  */
 }
 
 td{
