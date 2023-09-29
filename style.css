@@ -67,7 +67,7 @@ caption {
 }
 
 .center-pic {
-  margin-top: 30%;
+  margin-top: 12%;
   border-radius: 100%;
   width: 300px;
   display: block;
@@ -81,35 +81,12 @@ caption {
   position: relative;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 100%;
-  flex: 1;
-}
-
 .left {
   margin: 0;
-  flex-basis: 30%;
   text-align: center;
   color: white;
   display: flex;
   flex-direction: column;
-  padding-left: 10%;
-}
-
-.right {
-  margin: 0;
-  flex-basis: 70%;
-  text-align: center;
-  color: white;
-  display: flex;
-  flex-direction: column;
-}
-
-.right {
-  display: flex;
-  width: 60%;
 }
 
 .fblogo {
@@ -126,7 +103,7 @@ caption {
 
 #logos {
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 #vantaNet {
